@@ -1,0 +1,133 @@
+/* Reset default margin and padding for the body and header */
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the welcome banner */
+.welcome-banner {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-banner h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.welcome-banner p {
+    font-size: 1.2rem;
+}
+/* Custom CSS */
+.btn-custom-width {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.navi{
+    margin-bottom: 20px;
+}
+
+/* Custom CSS */
+.carousel-container {
+    width: 500px; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    margin: auto;
+}
+.try {
+    display: none;
+  }
+ 
+@media (min-width: 600px) {
+    .try {
+      display: block;
+    }
+  }
+
+
+
+  .about-us{
+    margin: 10px;
+    text-align: center;
+  }
+
+  .mivi{
+    display: flex;
+    text-align: center;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+  }
+  .mission, .vision{
+    max-width:40%;
+    background-color: aliceblue;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.3), -5px -7px 10px rgba(0, 0, 0, 0.3);
+    margin: 40px;
+
+    
+  }
+
+
+  /* styles.css */
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+
+footer h3 {
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Quick Links styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #3498db;
+}
+
+/* Social Icons styles */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+
